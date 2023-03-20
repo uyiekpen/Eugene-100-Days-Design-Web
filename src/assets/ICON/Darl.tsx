@@ -2,7 +2,7 @@ import React from "react";
 
 const Darl = () => {
   return (
-    <div className="mt-6 max-sm:mt-2">
+    <div className=" ml-5 mt-6 max-sm:mt-2">
       <svg
         width="100"
         height="59"

@@ -32,11 +32,11 @@ const Bodycomp = () => {
   };
 
   return (
-    <div className="day63 w-screen m-0	 h-initial	backdrop-blur-[121.5px] sticky dark:text-black dark:bg-white">
+    <div className="day63 w-screen m-0	 h-initial	backdrop-filter backdrop-blur-[121.5px] sticky dark:text-black dark:bg-white">
       <Header />
       <div className=" px-10 max-sm:px-5">
         <h1 className="text-8xl font-bold text-white flex flex-col  max-sm:text-4xl  dark:text-black">
-          <div className="flex">
+          <div className="flex   ">
             Turn on{" "}
             <div onClick={handleSwitch}>
               {theme === "light" ? <Light /> : <Darl />}
